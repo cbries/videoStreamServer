@@ -1,4 +1,4 @@
-# WebCam/Video Stream Server with jquery Video Stream Plugin
+# WebCam/Video Stream Server with jquery Video Plugin
 
 `videoStreamServer` is a WebCam/Video "streaming" server to provide fiddle yard surveillance for the software project `RailEssentials` (see [GitHub Repository](https://github.com/cbries/railessentials)). It uses [`Emgu CV`](https://github.com/emgucv/emgucv) to retrieve WebCam data and provides the data via `HttpListener`  (see [Microsoft](https://docs.microsoft.com/en-us/dotnet/api/system.net.httplistenerprefixcollection.add?view=net-5.0)). The web view is provided by a small jquery plugin.
 
