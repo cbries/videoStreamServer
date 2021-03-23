@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "videoStreamServer", "src\videoStreamServer\videoStreamServer.csproj", "{2E8D9788-9D6B-485F-8940-A255CD99A183}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "jqueryVideoStream", "src\jqueryVideoStream\jqueryVideoStream.njsproj", "{0BB56703-B0FD-4980-ADD1-C7595632EBFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E766F5C2-AC4A-4B05-92AC-BB5565D5E1C9}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E8D9788-9D6B-485F-8940-A255CD99A183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8D9788-9D6B-485F-8940-A255CD99A183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8D9788-9D6B-485F-8940-A255CD99A183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8D9788-9D6B-485F-8940-A255CD99A183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BB56703-B0FD-4980-ADD1-C7595632EBFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BB56703-B0FD-4980-ADD1-C7595632EBFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BB56703-B0FD-4980-ADD1-C7595632EBFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BB56703-B0FD-4980-ADD1-C7595632EBFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C342E9E-E9A1-41DC-B8A0-C62877882B79}
+	EndGlobalSection
+EndGlobal
